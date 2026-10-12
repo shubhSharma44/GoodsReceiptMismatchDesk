@@ -1,0 +1,57 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+**/bin/
+**/obj/
+**/out/
+**/Debug/
+**/Release/
+
+# .NET
+*.dll
+*.pdb
+*.cache
+appsettings.Local.json
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets.json
+
+# Angular / Node.js
+**/node_modules/
+**/dist/
+**/coverage/
+**/.angular/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Test results
+**/TestResults/
+
+# Temporary files
+*.tmp
+*.bak

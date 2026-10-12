@@ -1,0 +1,6 @@
+@GoodsReceiptMismatchDesk.API_HostAddress = http://localhost:5283
+
+GET {{GoodsReceiptMismatchDesk.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
